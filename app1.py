@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-import _loss  # noqa: F401
+# import _loss  # noqa: F401
 
 
 # Load model and encoder once at startup (cached so they don't reload on every interaction)
